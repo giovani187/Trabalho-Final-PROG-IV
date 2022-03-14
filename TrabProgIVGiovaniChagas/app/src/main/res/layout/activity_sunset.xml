@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SunsetActivity"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@drawable/background2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="10"
+        android:background="@drawable/layout_shadow_white"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/cabeçalho"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Carregando..."
+            android:textAlignment="center"
+            android:autoSizeTextType="uniform"
+            />
+
+
+</LinearLayout>
+
+
+
+    <ImageView
+        android:layout_weight="70"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imagem"
+        android:layout_margin="10dp"
+        android:background="@drawable/layout_shadow_white"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:background="@drawable/layout_shadow_white"
+        android:weightSum="100"
+        android:layout_weight="10"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textAlignment="textEnd"
+            android:textColor="#832018"
+            android:text="Sunrise: "
+            android:autoSizeTextType="uniform"
+            android:layout_margin="3dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/hour_sunrise"
+            android:layout_width="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:textStyle="normal"
+            android:textAlignment="textStart"
+            android:textColor="#832018"
+            android:text="Carregando..."
+            android:layout_marginEnd="10dp"
+            android:autoSizeTextType="uniform"
+            android:layout_marginStart="0dp"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/layout_shadow_white"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_margin="10dp"
+
+        >
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="Sunset: "
+            android:textAlignment="textEnd"
+            android:textColor="#832018"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"
+            android:layout_margin="3dp"
+
+            />
+
+        <TextView
+            android:id="@+id/hour_sunset"
+            android:layout_width="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="Carregando..."
+            android:layout_marginEnd="10dp"
+            android:textAlignment="textStart"
+            android:textColor="#832018"
+            android:autoSizeTextType="uniform"
+            android:textStyle="normal"
+            android:layout_marginStart="0dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
