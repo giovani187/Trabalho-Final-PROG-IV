@@ -14,7 +14,7 @@ Retrofit - Biblioteca facilitadora de requisições a API's
 
 ## Telas
 
-MainActivity - Splash Page (Launch)
+MainActivity - Splash Page (Launcher)
 
 SunsetActivity 
 
