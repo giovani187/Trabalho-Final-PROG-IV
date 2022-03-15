@@ -18,6 +18,6 @@ MainActivity
 
 SunsetActivity
 
-## FLUXO APP
+## Fluxo APP
 
 O aplicativo acessa o GPS por meio do google-service para obter dados como latitude e longitude, após captar esses dados é feito uma requisição a API do Sunset e após isso é retornado informações dos horários que ocorrem os eventos do pôr e nascer do sol para determinada localidade que é informada no cabeçalho do aplicativo.
