@@ -14,9 +14,9 @@ Retrofit - Biblioteca facilitadora de requisições a API's
 
 ## Telas
 
-MainActivity
+MainActivity - Splash Page (Launch)
 
-SunsetActivity
+SunsetActivity 
 
 ## Fluxo APP
 
